@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "A name generator for naming machines, and networks",
   "main": "index.js",
+  "bin": {
+    "name-gen": "./index.js"
+  },
   "scripts": {
+    "start": "name-gen",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +26,9 @@
   "bugs": {
     "url": "https://github.com/chaudhryjunaid/name-gen/issues"
   },
-  "homepage": "https://github.com/chaudhryjunaid/name-gen#readme"
+  "homepage": "https://github.com/chaudhryjunaid/name-gen#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "minimist": "^1.2.5"
+  }
 }
