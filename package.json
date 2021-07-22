@@ -1,0 +1,26 @@
+{
+  "name": "name-gen",
+  "version": "1.0.0",
+  "description": "A name generator for naming machines, and networks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaudhryjunaid/name-gen.git"
+  },
+  "keywords": [
+    "hostname",
+    "name",
+    "generator",
+    "wifi",
+    "network"
+  ],
+  "author": "Chaudhry Junaid Anwar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chaudhryjunaid/name-gen/issues"
+  },
+  "homepage": "https://github.com/chaudhryjunaid/name-gen#readme"
+}
